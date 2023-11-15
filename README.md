@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Rover
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Rover is a web application powered by OpenAI's GPT-3.5 Turbo model, designed to facilitate interactive and dynamic conversations with a chatbot. This application enables users to initiate new chats using their own api keys , make quick queries about "What's new?" and "ChatGPT Voice AI," and receive responses in a conversational format.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [How It Works](#how-it-works)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Conversational Chat:** Engage in dynamic conversations with ChatGPT using OpenAI's GPT-3.5 Turbo model using their own api keys.
+- **New Chat Initiation:** Start a new chat with a simple click of a button.
+- **Quick Queries:** Pose queries about "What's new?" and "ChatGPT Voice AI" to receive relevant responses.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Before getting started, ensure that you have the following prerequisites:
 
-### `npm run build`
+- [Node.js](https://nodejs.org/) installed on your machine.
+- Obtain an API key from OpenAI by following their [documentation](https://platform.openai.com/docs/introduction).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone https://github.com/ram05kishor12/chat_bot/
+   ```
 
-### `npm run eject`
+2. **Navigate to the project directory:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   cd chat_bot
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Install dependencies:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm install
+   npm install dotenv
+   npm install openai
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Start the application:**
 
-## Learn More
+   ```bash
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. **Open your browser and go to [http://localhost:3000](http://localhost:3000) to use Rover.**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+1. **Start a New Chat:**
+   - Click the "New Chat" button to initiate a new chat session.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. **Engage in Conversation:**
+   - Send queries to ChatGPT by entering text in the input field and pressing "Enter" or clicking the send button.
 
-### Analyzing the Bundle Size
+3. **Explore Functionalities:**
+   - Explore the application's functionalities and experience a dynamic conversation with ChatGPT.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## How It Works
 
-### Making a Progressive Web App
+The application leverages the OpenAI GPT-3.5 Turbo model for natural language processing. User queries are sent to the OpenAI API, and the responses are displayed in real-time. The UI provides a chat-like experience with a typing animation during response generation.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Acknowledgments
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **OpenAI:** For providing the powerful GPT-3.5 Turbo model.
