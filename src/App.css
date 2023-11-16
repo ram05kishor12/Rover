@@ -314,3 +314,150 @@ span{
   white-space: pre-wrap;
 }
 
+/* media queries for small devices */
+@media (max-width : 768px) {
+  
+    .sideBar{
+      display: none;
+    }
+  
+    .main{
+      margin: 0rem 0rem;
+      padding: 1.9rem 1rem;
+      margin-top : 0rem;
+    }
+
+    .chatFooter{
+      margin-top: 0rem;
+      margin-left: 0rem;
+      width: 70%;
+      margin-bottom: 10px;
+    }
+  
+    .inp{
+      width: 100%;
+    }
+  
+    .chats{
+      margin-left: 0px;
+      width: auto;
+    }
+  
+    .made{
+      margin-left: 0px;
+    }
+  
+    .lowerSidebar{
+      display: none;
+    }
+  
+    .chat{
+      margin-left:10px;
+    }
+  
+    .chat img{
+      width: 2rem;
+      height: 2rem;
+    }
+  
+    .chatFooter{
+      margin-top: 0rem;
+    }
+  
+    .inp>input{
+      width: calc(100% - 3rem);
+    }
+  
+    .inp{
+      width: 100%;
+    }
+  
+    .inp>input, .send{
+      background: transparent;
+      border: none;
+    }
+  
+    .inp{
+      padding: 0.2rem;
+      background:rgb(16,16,16);
+      display: inline-flex;
+      width : 100%;
+      border-radius: 10px;
+    }
+  
+    .inp>input{
+      width : calc(100% - 3rem);
+      outline: none;
+      padding: 1.25rem;
+      color: white;
+    }
+  
+    .inp>input, .send {
+      background : transparent;
+}
+}
+
+/* media queries for medium devices */
+@media (max-width : 1024px) {
+  
+    .sideBar{
+      position: fixed;
+      width: narrow;
+    }
+  
+    .main{
+      margin: 0rem 0rem;
+      padding: 1.9rem 1rem;
+      margin-top : 0rem;
+    }
+
+    .chatFooter{
+      margin-top: 0rem;
+      margin-left:1rem;
+      width: 40%;
+      margin-bottom: 10px;
+    }
+  
+    .inp{
+      width: 100%;
+    }
+  
+    .chats{
+      margin-left: 0px;
+      width: auto;
+    }
+  
+    .made{
+      margin-left: 0px;
+    }
+  
+    .lowerSidebar{
+      display: none;
+    }
+  
+    .chat{
+      margin-left:10px;
+    }
+  
+    .chat img{
+      width: 2rem;
+      height: 2rem;
+    }
+  
+    .chatFooter{
+      margin-top: 0rem;
+    }
+  
+    .inp>input{
+      width: calc(100% - 3rem);
+    }
+  
+    .inp{
+      width: 100%;
+    }
+  
+    .inp>input {
+      background: transparent;
+      border: none;
+    }
+}
