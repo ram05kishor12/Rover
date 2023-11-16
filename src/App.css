@@ -33,8 +33,10 @@ span{
 }
 .brand{
 
-  padding: 10px;
-  font-size: 1.35rem;
+  padding: 2.5px;
+  font-size: 2rem;
+  font-family:'ubuntu';
+
 
 }
 
