@@ -8,6 +8,7 @@ body{
   background : #1a1a1a;
   font-family: Poppins,sans-serif;
   color : white;
+  height: 100vh;
 }
 
 span{
@@ -23,7 +24,7 @@ span{
 
 .sideBar{
   background: black;
-  height: 105vh;
+  height: 100vh;
   width: 270px;
   position:absolute;
   top: 0;
@@ -82,7 +83,7 @@ span{
 }
 
 .upperSideBottom{
-  padding: .00rem;
+  padding: 0rem;
 }
 
 .query{
@@ -162,7 +163,8 @@ span{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 3rem 10rem;
+  margin: 0rem 10rem;
+  padding: 1.9rem 12rem;
 }
 
 .chatFooter{
@@ -260,35 +262,13 @@ span{
 }
 
 
-@media only screen and (max-width: 600px) {
-  .sideBar {
-    width: 100%;
-  }
-
-  .main {
-    margin: 4rem 1rem;
-  }
-
-  .chatFooter {
-    margin-left: 0;
-  }
-
-  .inp {
-    width: 100%;
-  }
-
-  .chats {
-    width: 100%;
-  }
-}
-
 .lowerSidebar span{
   color :rgb(50, 173, 250);
 }
 
 .made{
    color: thistle;
-   margin-top: 1.4rem;
+   margin-top: 1rem;
    margin-left: 250px;
 }
 
@@ -334,4 +314,3 @@ span{
   white-space: pre-wrap;
 }
 
-/* Add these styles for the dialog box */
