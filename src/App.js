@@ -5,7 +5,7 @@ import box from './assets/message.svg';
 import send from './assets/send.svg';
 import userIcon from './assets/user-icon.png';
 import go from './assets/logor.png';
-import lt from './assets/logorr.jpg';
+import lt from './assets/logo_rr.jpg'
 import './App.css';
 
 const App = () => {
